@@ -1,28 +1,71 @@
-.App {
-  text-align: center;
+
+@import "~bootstrap/scss/bootstrap";
+
+
+.doctor-image{
+  width: 100%;
+  height:100vh;
+}
+
+.bigContainer{
+  padding-top:45px ;
+
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+.checkbox-container{
+  padding-right: 40px;
+  width: 378px;
+  display: flex;
+  flex-display: row;
+  justify-content: space-between;
+}
+.agreement-container{
+  width: 378px;
+}
+.title{
+  margin-top: 45px;
+  margin-bottom:-5px;
+}
+@media screen and (max-width: 1350px) {
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  .checkbox-container{
+    width: 378px;
+    display: flex;
+    flex-display: row;
+    justify-content: space-between;
+  }
 }
 
-.App-title {
-  font-size: 1.5em;
+@media screen and (max-width: 378px) {
+.doctor-container{
+  display: none;
 }
 
-.App-intro {
-  font-size: large;
+  .bigContainer{
+    width: 100%;
+    padding-top:45px ;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+    .checkbox-container{
+      padding-right: 40px;
+      width: 300px;
+      display: flex;
+      flex-display: row;
+      justify-content: space-between;
+    }
+  .agreement-container{
+    width: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .doctor-container{
+    display: none;
+  }
+
+
 }

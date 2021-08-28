@@ -1,0 +1,54 @@
+$backgroundColor:#F1F6FD;
+
+.input-box{
+  width: 378px;
+  height: 54px;
+  background: $backgroundColor 0% 0% no-repeat padding-box;
+  border: 2px solid #E3F0FB;
+  border-radius: 12px;
+
+  text-align: left;
+  font: normal normal normal 16px/26px Lato;
+  letter-spacing: 0px;
+  color: #7B91A6;
+  margin-bottom: 30px;
+
+}
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+.icon-row{
+  width: 378px;
+  margin-top: -68px;
+}
+.eye-icon{
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  opacity: 0.4;
+  color:#7B91A6;
+}
+@media screen and (max-width: 378px) {
+  .input-box{
+    width: 350px;
+    height: 54px;
+    background: $backgroundColor 0% 0% no-repeat padding-box;
+    border: 2px solid #E3F0FB;
+    border-radius: 12px;
+
+    text-align: left;
+    font: normal normal normal 16px/26px Lato;
+    letter-spacing: 0px;
+    color: #7B91A6;
+    margin-bottom: 30px;
+
+  }
+  .eye-icon{
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    opacity: 0.4;
+    color:#7B91A6;
+    margin-right: 25px;
+  }
+}

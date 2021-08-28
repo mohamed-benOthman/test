@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "react": "^16.4.2",
+    "react-bootstrap": "^2.0.0-beta.6",
     "react-dom": "^16.4.2",
+    "react-intl": "^5.20.10",
     "react-scripts-scss-ts": "2.17.1"
   },
   "scripts": {
