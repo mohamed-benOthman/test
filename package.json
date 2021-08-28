@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "PORT=3006 react-scripts-ts start",
-    "start:server": "pm2 start npm --name 'portfolio' -- start",
+    "start:server": "pm2 start npm --name 'test' -- start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
